@@ -7,7 +7,7 @@ import PageWrapper from '../PageWrapper'
 import emailjs from '@emailjs/browser'
 import { toast, Toaster } from 'react-hot-toast'
 
-const Page = ({ children }: { children: React.ReactNode }) => {
+const ContactsPage = () => {
     const [name, setName] = useState('')
 const [email, setEmail] = useState('')
 const [message, setMessage] = useState('')
@@ -49,7 +49,6 @@ const sendMail = () => {
         {/* Main content section */}
         <PageWrapper>
         <div className="flex-1 p-6 md:px-[20vw] pt-[8vh] md:pt-[14vh]">
-          {children}
           <div className='flex flex-col  h-full'>
           <div className="text-4xl md:text-6xl font-['Triakis']">Contact Me</div>
             <div className="mt-6 text-xl md:text-2xl font-['Bariol_Regular']">
@@ -115,4 +114,4 @@ const sendMail = () => {
   )
 }
 
-export default Page
+export default ContactsPage

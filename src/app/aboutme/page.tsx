@@ -3,8 +3,9 @@ import Header from '@/components/Header'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import PageWrapper from '../PageWrapper'
+import Image from 'next/image'
 
-const Page = ({ children }: { children: React.ReactNode }) => {
+const AboutMePage = () => {
   return (
     <main className="min-h-screen flex flex-col pb-10">
       <div>
@@ -13,10 +14,15 @@ const Page = ({ children }: { children: React.ReactNode }) => {
         {/* Main content section */}
         <PageWrapper>
         <div className="flex-1 px-[5vw] md:px-[20vw] pt-[25vh] md:pt-[15vh] font-['Bariol_Regular']">
-          {children}
           <div className='flex flex-row'>
             {/* eslint-disable @next/next/no-img-element */}
-            <img src="/profile.jpg" alt="Hero Image" className="w-[25w] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg" />
+            <Image
+                  src="/profile.jpg"
+                  alt="Hero Image"
+                  className="w-[25w] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg"
+                  width={200}
+                  height={300}
+                />
             <div className='mt-5 pl-3'>
                 <div className="text-3xl md:text-6xl font-['Triakis']">Hello!</div>
                 <div className="text-4xl md:text-8xl mt-5 font-['Triakis']"><span className='text-3xl md:text-6xl'>I&apos;m</span> Kumaran</div>
@@ -96,4 +102,4 @@ const Page = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default Page
+export default AboutMePage

@@ -4,7 +4,7 @@ import React from 'react'
 import PageWrapper from '../PageWrapper'
 import SkillChart from '@/components/SkillChart'
 
-const Page = ({ children }: { children: React.ReactNode }) => {
+const SkillsPage = () => {
     const technicalSkills = [
   { skill: 'JavaScript', percent: 70 },
   { skill: 'React', percent: 65 },
@@ -30,7 +30,6 @@ const nonTechnicalSkills = [
         {/* Main content section */}
         <PageWrapper>
         <div className="flex-1 px-[5vw] md:px-[7vw] pt-[8vh] md:pt-[10vh]">
-          {children}
           <div className="text-4xl md:text-6xl font-['Triakis']">Skills</div>
           <div className="mt-6 font-['Bariol_Regular']">
   <div className="text-2xl md:text-3xl mb-4">Technical Skills</div>
@@ -59,4 +58,4 @@ const nonTechnicalSkills = [
   )
 }
 
-export default Page
+export default SkillsPage

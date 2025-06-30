@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 import PageWrapper from "./PageWrapper";
 
-export default function Home({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
     <main className="min-h-screen flex flex-col pb-10">
       <div>
@@ -12,7 +12,6 @@ export default function Home({ children }: { children: React.ReactNode }) {
         <PageWrapper>
         {/* Main content section */}
         <div className="flex-1 px-[5vw] md:px-[20vw] pt-[35vh] md:pt-[20vh] font-['Bariol_Regular']">
-          {children}
           <div className="text-5xl md:text-8xl font-['Triakis']">Hey,</div>
           <div className="text-3xl md:text-5xl">Looking for a Frontend Developer with AI skills?</div>
           <div className="text-xl md:text-2xl mb-5">Psst... You&apos;ve come to the right place...</div>

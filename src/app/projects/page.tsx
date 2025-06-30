@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import ProjectCard from '@/components/ProjectCard'
 import PageWrapper from '../PageWrapper'
 
-const Page = ({ children }: { children: React.ReactNode }) => {
+const ProjectsPage = () => {
     const projects = [
   {
     imageSrc: "/Convergence.png",
@@ -52,7 +52,6 @@ const Page = ({ children }: { children: React.ReactNode }) => {
         {/* Main content section */}
         <PageWrapper>
         <div className="flex-1 px-[5vw] md:px-[7vw] pt-[8vh] md:pt-[10vh]">
-          {children}
           <div className="text-4xl md:text-6xl font-['Triakis']">Projects</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10 mr-10 font-['Bariol_Regular']">
   {projects.map((project, index) => (
@@ -78,4 +77,4 @@ const Page = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default Page
+export default ProjectsPage

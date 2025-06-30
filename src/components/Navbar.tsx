@@ -37,11 +37,11 @@ export default function Navbar() {
 
         {open && (
           <div className="absolute right-0 mt-2 w-40 bg-gray-800 text-white p-4 text-lg font-['Bariol_Regular'] rounded-xl shadow-lg">
-            <a href="/" className="block py-1 hover:text-teal-300">Home</a>
-            <a href="/aboutme" className="block py-1 hover:text-teal-300">About Me</a>
-            <a href="/projects" className="block py-1 hover:text-teal-300">Projects</a>
-            <a href="/skills" className="block py-1 hover:text-teal-300">Skills</a>
-            <a href="/contactme" className="block py-1 hover:text-teal-300">Contact Me</a>
+            <Link href="/" className="block py-1 hover:text-teal-300">Home</Link>
+            <Link href="/aboutme" className="block py-1 hover:text-teal-300">About Me</Link>
+            <Link href="/projects" className="block py-1 hover:text-teal-300">Projects</Link>
+            <Link href="/skills" className="block py-1 hover:text-teal-300">Skills</Link>
+            <Link href="/contactme" className="block py-1 hover:text-teal-300">Contact Me</Link>
           </div>
         )}
       </div>

@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import PageWrapper from '../PageWrapper'
 
-const page = ({ children }: { children: React.ReactNode }) => {
+const Page = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="min-h-screen flex flex-col pb-10">
       <div>
@@ -96,4 +96,4 @@ const page = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default page
+export default Page

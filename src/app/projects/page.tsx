@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import ProjectCard from '@/components/ProjectCard'
 import PageWrapper from '../PageWrapper'
 
-const page = ({ children }: { children: React.ReactNode }) => {
+const Page = ({ children }: { children: React.ReactNode }) => {
     const projects = [
   {
     imageSrc: "/Convergence.png",
@@ -78,4 +78,4 @@ const page = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-export default page
+export default Page

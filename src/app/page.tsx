@@ -16,7 +16,7 @@ export default function Home({ children }: { children: React.ReactNode }) {
           {children}
           <div className="text-5xl md:text-8xl font-['Triakis']">Hey,</div>
           <div className="text-3xl md:text-5xl">Looking for a Frontend Developer with AI skills?</div>
-          <div className="text-xl md:text-2xl mb-5">Psst... You've come to the right place...</div>
+          <div className="text-xl md:text-2xl mb-5">Psst... You&apos;ve come to the right place...</div>
           <Link href="/aboutme"><button className="py-3 px-5 cursor-pointer rounded-full border border-white hover:text-teal-300 hover:border-teal-300">Discover more</button></Link>
         </div>
         </PageWrapper>

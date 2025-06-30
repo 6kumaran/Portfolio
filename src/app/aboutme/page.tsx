@@ -3,7 +3,6 @@ import Header from '@/components/Header'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import PageWrapper from '../PageWrapper'
-import Footer from '@/components/Footer'
 
 const page = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -19,7 +18,7 @@ const page = ({ children }: { children: React.ReactNode }) => {
             <img src="/profile.jpg" alt="Hero Image" className="w-[25w] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg" />
             <div className='mt-5 pl-3'>
                 <div className="text-3xl md:text-6xl font-['Triakis']">Hello!</div>
-                <div className="text-4xl md:text-8xl mt-5 font-['Triakis']"><span className='text-3xl md:text-6xl'>I'm</span> Kumaran</div>
+                <div className="text-4xl md:text-8xl mt-5 font-['Triakis']"><span className='text-3xl md:text-6xl'>I&apos;m</span> Kumaran</div>
             </div>
           </div>
           <div className="text-xl md:text-3xl">A passionate developer with interest in full stack web development, building engaging UI/UX, and solving real-world problems through code.</div>
@@ -52,7 +51,7 @@ const page = ({ children }: { children: React.ReactNode }) => {
     <span className="absolute left-0 top-[6px] text-blue-400">•</span>
     <div className="flex justify-between items-center">
       <div>
-        <strong>GDSC Core Member</strong> @St. Martin's Eng. College<br />
+        <strong>GDSC Core Member</strong> @St. Martin&apos;s Eng. College<br />
         <span className="text-gray-400 text-sm">Led technical sessions and organized developer events.</span>
       </div>
       <a href="https://drive.google.com/file/d/1bGOKyzvSsCELY5h6ZpRO-HyZEVhr1Leo/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ml-3 text-blue-400 hover:underline text-sm flex items-center gap-1">

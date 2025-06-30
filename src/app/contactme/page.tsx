@@ -53,7 +53,7 @@ const sendMail = () => {
           <div className='flex flex-col  h-full'>
           <div className="text-4xl md:text-6xl font-['Triakis']">Contact Me</div>
             <div className="mt-6 text-xl md:text-2xl font-['Bariol_Regular']">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!
             </div>
             <div className="w-full mt-10 flex justify-center">
   <div className="w-[90vw] max-w-md flex flex-col gap-6 font-['Bariol_Regular']">

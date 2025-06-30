@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,10 +26,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+  className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
+>
+  {/* Dark overlay for general darkening */}
+  <div className="fixed inset-0 z-[-1] bg-black/60 pointer-events-none" />
+
+  {/* Vignette effect for dark corners */}
+  <div className="fixed inset-0 z-[-1] pointer-events-none bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0)_40%,_rgba(0,0,0,1)_100%)]" />
+
+  {children}
+  <Footer />
+</body>
+
     </html>
   );
 }

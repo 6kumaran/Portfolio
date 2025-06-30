@@ -1,0 +1,3 @@
+To learn more about the font family and its license, visit https://www.fontmirror.com/lovely-amatis-signature
+
+Lovely Amatis Signature: A flowing script font, its elegant curves and delicate strokes evoke a sense of romance and sophistication.  Perfect for wedding invitations, personal stationery, or anything needing a touch of graceful femininity.  The subtly whimsical style adds a touch of personality without sacrificing readability.

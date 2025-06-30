@@ -28,7 +28,7 @@ const ProjectsPage = () => {
     description: ["A project for Hyrio.Ai, showcasing my skills in web development."," Highlighting features like checkpointing and character count along with responsive desgin."],
   },
   {
-    imageSrc: "/BlueStock.png",
+    imageSrc: "/Bluestock.png",
     title: "IPO Management at BlueStock",
     githubUrl: "https://github.com/6kumaran/BlueStock",
     liveUrl: "https://drive.google.com/file/d/1uSrnwfjU_hYg3WtC9fm9nP0-NsYvo8eb/view?usp=drive_link",

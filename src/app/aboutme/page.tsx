@@ -15,6 +15,7 @@ const page = ({ children }: { children: React.ReactNode }) => {
         <div className="flex-1 px-[5vw] md:px-[20vw] pt-[25vh] md:pt-[15vh] font-['Bariol_Regular']">
           {children}
           <div className='flex flex-row'>
+            {/* eslint-disable @next/next/no-img-element */}
             <img src="/profile.jpg" alt="Hero Image" className="w-[25w] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg" />
             <div className='mt-5 pl-3'>
                 <div className="text-3xl md:text-6xl font-['Triakis']">Hello!</div>

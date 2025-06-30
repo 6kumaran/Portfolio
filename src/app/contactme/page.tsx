@@ -7,7 +7,7 @@ import PageWrapper from '../PageWrapper'
 import emailjs from '@emailjs/browser'
 import { toast, Toaster } from 'react-hot-toast'
 
-const page = ({ children }: { children: React.ReactNode }) => {
+const Page = ({ children }: { children: React.ReactNode }) => {
     const [name, setName] = useState('')
 const [email, setEmail] = useState('')
 const [message, setMessage] = useState('')
@@ -115,4 +115,4 @@ const sendMail = () => {
   )
 }
 
-export default page
+export default Page

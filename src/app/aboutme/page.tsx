@@ -13,13 +13,13 @@ const AboutMePage = () => {
         <div className="flex flex-1">
         {/* Main content section */}
         <PageWrapper>
-        <div className="flex-1 px-[5vw] md:px-[20vw] pt-[25vh] md:pt-[15vh] font-['Bariol_Regular']">
+        <div className="flex-1 px-[5vw] md:px-[20vw] pt-[15vh] md:pt-[15vh] font-['Bariol_Regular']">
           <div className='flex flex-row'>
             {/* eslint-disable @next/next/no-img-element */}
             <Image
-                  src="/profile.jpg"
+                  src="/profile2.jpg"
                   alt="Hero Image"
-                  className="w-[25w] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg"
+                  className="w-[35vw] md:w-[13vw] h-[15vh] md:h-[27vh] mb-6 rounded-lg"
                   width={200}
                   height={300}
                 />

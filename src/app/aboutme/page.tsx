@@ -30,8 +30,8 @@ const AboutMePage = () => {
           </div>
           <div className="text-xl md:text-3xl">A passionate developer with interest in full stack web development, building engaging UI/UX, and solving real-world problems through code.</div>
           <div className="flex flex-row gap-5 mt-5 justify-end md:justify-start">
-            <Link href="/S_KUMARAN.pdf" target="_blank" rel="noopener noreferrer"><button className='rounded-full px-5 py-3 border border-white hover:text-teal-300 hover:border-teal-300 cursor-pointer'>Resume</button></Link>
-            <Link href="/contactme"><button className='rounded-full px-5 py-3 border border-white hover:text-teal-300 hover:border-teal-300 cursor-pointer'>Contact Me</button></Link>
+            <Link href="/S_KUMARAN.pdf" target="_blank" rel="noopener noreferrer"><button className='rounded-full px-5 py-3 border border-white hover:text-orange-300 hover:border-orange-300 cursor-pointer'>Resume</button></Link>
+            <Link href="/contactme"><button className='rounded-full px-5 py-3 border border-white hover:text-orange-300 hover:border-orange-300 cursor-pointer'>Contact Me</button></Link>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
   {/* Experience Card */}

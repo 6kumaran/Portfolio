@@ -65,7 +65,7 @@ const sendMail = () => {
       placeholder="Your Name"
       value={name}
       onChange={(e) => setName(e.target.value)}
-      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300"
+      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-200"
     />
   </div>
 
@@ -77,7 +77,7 @@ const sendMail = () => {
       placeholder="Your Email"
       value={email}
       onChange={(e) => setEmail(e.target.value)}
-      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300"
+      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-200"
     />
   </div>
 
@@ -89,13 +89,13 @@ const sendMail = () => {
       placeholder="Your Message"
       value={message}
       onChange={(e) => setMessage(e.target.value)}
-      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-300"
+      className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-200"
     />
   </div>
 
 <button
   onClick={sendMail}
-  className="mt-4 px-6 text-lg md:text-xl py-3 bg-teal-500 text-white cursor-pointer rounded-full hover:bg-teal-600 transition"
+  className="mt-4 px-6 text-lg md:text-xl py-3 bg-orange-300 text-white cursor-pointer rounded-full hover:bg-orange-400 transition"
 >
   Send Message
 </button>

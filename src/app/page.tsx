@@ -15,7 +15,12 @@ export default function Home() {
           <div className="text-5xl md:text-8xl font-['Triakis']">Hey,</div>
           <div className="text-3xl md:text-5xl">Looking for a Frontend Developer with AI skills?</div>
           <div className="text-xl md:text-2xl mb-5">Psst... You&apos;ve come to the right place...</div>
-          <Link href="/aboutme"><button className="py-3 px-5 cursor-pointer rounded-full border border-white hover:text-teal-300 hover:border-teal-300">Discover more</button></Link>
+          <Link href="/aboutme"><button className="py-3 px-5 cursor-pointer rounded-full border border-white hover:text-orange-300 hover:border-orange-300">Discover more</button></Link>
+          <div className="text-right mt-3 text-lg md:text-lg font-['Triakis']">
+            <div>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</div>
+            <div>— Martin Fowler</div>
+          </div>
+          <div className="text-3xl md:text-5xl">Technologies I&apos;ve worked with:</div>
         </div>
         </PageWrapper>
         {/* Navbar (visible from md and up) */}

@@ -1,7 +1,7 @@
 'use client'
 import { PieChart, Pie, Cell } from 'recharts'
 
-const COLORS = ['#14b8a6', '#e5e7eb'] // blue for skill, gray for rest
+const COLORS = ['#fdba74', '#cedcf7ff'] // blue for skill, gray for rest
 
 interface SkillChartProps {
   skill: string

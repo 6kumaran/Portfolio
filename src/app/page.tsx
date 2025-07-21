@@ -20,7 +20,6 @@ export default function Home() {
             <div>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</div>
             <div>— Martin Fowler</div>
           </div>
-          <div className="text-3xl md:text-5xl">Technologies I&apos;ve worked with:</div>
         </div>
         </PageWrapper>
         {/* Navbar (visible from md and up) */}

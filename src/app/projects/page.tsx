@@ -7,11 +7,25 @@ import PageWrapper from '../PageWrapper'
 const ProjectsPage = () => {
     const projects = [
   {
+    imageSrc: "/Adaptive_PQC.jpg",
+    title: "Adaptive_PQC",
+    githubUrl: "https://github.com/6kumaran/Adaptive_PQC",
+    liveUrl: "https://adaptive-pqc-frontend.onrender.com/",
+    description: ["An adaptive edge–cloud IoT security framework developed using Python, FastAPI, Streamlit, Docker, and Post-Quantum Cryptography.","Provides threat-aware secure communication with adaptive cryptographic selection using ML-KEM and ML-DSA for resource-constrained IoT environments."],
+  },
+  {
     imageSrc: "/Convergence.png",
     title: "Convergence",
     githubUrl: "https://github.com/6kumaran/Convergence",
     liveUrl: "https://convergence-nine.vercel.app",
     description: ["A responsive website for Convergence, a tech fest."," Built with Next.js & Tailwind CSS to improve user engagement and experience."],
+  },
+  {
+    imageSrc: "/Kanoon_Game.jpeg",
+    title: "Kanoon Game",
+    githubUrl: "https://github.com/6kumaran/Kanoon_Game",
+    liveUrl: "https://github.com/6kumaran/Kanoon_Game",
+    description: ["A mobile game app built with React Native. It helps in promoting legal awareness through engaging games."," Built for Bashabandu hackathon organized by Microsoft."],
   },
   {
     imageSrc: "/P1.jpg",
@@ -33,13 +47,6 @@ const ProjectsPage = () => {
     githubUrl: "https://github.com/6kumaran/BlueStock",
     liveUrl: "https://drive.google.com/file/d/1uSrnwfjU_hYg3WtC9fm9nP0-NsYvo8eb/view?usp=drive_link",
     description: ["An IPO management system for BlueStock, built with Next, Node.js and MongoDB."," It allows users to view and manage IPOs efficiently."],
-  },
-  {
-    imageSrc: "/Kanoon_Game.jpeg",
-    title: "Kanoon Game",
-    githubUrl: "https://github.com/6kumaran/Kanoon_Game",
-    liveUrl: "https://github.com/6kumaran/Kanoon_Game",
-    description: ["A mobile game app built with React Native. It helps in promoting legal awareness through engaging games."," Built for Bashabandu hackathon organized by Microsoft."],
   },
   // Add more projects here...
 ]

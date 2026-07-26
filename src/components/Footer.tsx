@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Social Icons */}
       <div className="flex gap-6 justify-center mb-2 md:mb-0">
         <a
-          href="mailto:kumaran61003@gmail.com"
+          href="https://mail.google.com/mail/u/3/#inbox?compose=CllgCJfpsXfpncMWvNvgfmdsMKlrggMkcJVgBczkpJJBctKNfdlSVfgScvvjwzNHrJgGDWqfbDB"
           className="hover:text-blue-400 transition"
           aria-label="Email"
         >

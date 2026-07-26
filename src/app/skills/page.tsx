@@ -11,11 +11,10 @@ const SkillsPage = () => {
   { skill: 'Node.js', percent: 60 },
   { skill: 'Next.js', percent: 60 },
   { skill: 'MySQL', percent: 70 },
+  { skill: 'Cybersecurity', percent: 70 },
   { skill: 'MongoDB', percent: 60 },
   { skill: 'ML', percent: 40 },
-
 ]
-
 const nonTechnicalSkills = [
   { skill: 'Communication', percent: 85 },
   { skill: 'Teamwork', percent: 90 },

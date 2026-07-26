@@ -28,7 +28,7 @@ const AboutMePage = () => {
                 <div className="text-4xl md:text-8xl mt-5 font-['Triakis']"><span className='text-3xl md:text-6xl'>I&apos;m</span> Kumaran</div>
             </div>
           </div>
-          <div className="text-xl md:text-3xl">A passionate developer with interest in full stack web development, building engaging UI/UX, and solving real-world problems through code.</div>
+          <div className="text-xl md:text-3xl">M.Tech Computer Science student specializing in AI and Cybersecurity. Experienced in developing secure full-stack applications, AI-powered solutions, and Post-Quantum Cryptography frameworks.</div>
           <div className="flex flex-row gap-5 mt-5 justify-end md:justify-start">
             <Link href="/S_KUMARAN.pdf" target="_blank" rel="noopener noreferrer"><button className='rounded-full px-5 py-3 border border-white hover:text-orange-300 hover:border-orange-300 cursor-pointer'>Resume</button></Link>
             <Link href="/contactme"><button className='rounded-full px-5 py-3 border border-white hover:text-orange-300 hover:border-orange-300 cursor-pointer'>Contact Me</button></Link>
@@ -45,7 +45,7 @@ const AboutMePage = () => {
     <span className="absolute left-0 top-[6px] text-blue-400">•</span>
     <div className="flex justify-between items-center">
       <div>
-        <strong>Web Dev Intern</strong> @ BlueStock (May–July 2024)<br />
+        <strong>Web Dev Intern</strong> @ BlueStock (May-July 2024)<br />
         <span className="text-gray-400 text-sm">Built an IPO management system using Next.js & MongoDB.</span>
       </div>
       <a href="https://drive.google.com/file/d/1uSrnwfjU_hYg3WtC9fm9nP0-NsYvo8eb/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ml-3 text-blue-400 hover:underline text-sm flex items-center gap-1">
@@ -88,7 +88,36 @@ const AboutMePage = () => {
       </li>
     </ul>
   </div>
+
+  {/* Achievements Card */}
+  <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl p-6 shadow-md hover:shadow-yellow-400/30 transition-shadow duration-300">
+    <div className="flex items-center gap-2 mb-4">
+      <span className="text-yellow-400 text-xl">🎓</span>
+      <h2 className="text-2xl font-['Triakis']">Education</h2>
+    </div>
+    <ul className="list-disc list-inside text-base md:text-lg font-['Bariol_Regular'] space-y-2 pl-2">
+      <div className="flex justify-between items-center">
+      <div>
+        <strong>M.Tech</strong> @ JNTUH <br />
+        <span className="text-gray-400 text-sm">Cyber Forensics and Information Security</span>
+      </div>
+      <div>
+        (2025-2027)
+      </div>
+    </div>
+      <div className="flex justify-between items-center">
+      <div>
+        <strong>B.Tech</strong> @ SMEC<br />
+        <span className="text-gray-400 text-sm">Computer Science (AI and ML)</span>
+      </div>
+      <div>
+        (2021-2025)
+      </div>
+    </div>
+    </ul>
+  </div>
 </div>
+
 
 
         </div>

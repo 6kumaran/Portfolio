@@ -15,7 +15,6 @@ const AboutMePage = () => {
         <PageWrapper>
         <div className="flex-1 px-[5vw] md:px-[20vw] pt-[15vh] md:pt-[15vh] font-['Bariol_Regular']">
           <div className='flex flex-row'>
-            {/* eslint-disable @next/next/no-img-element */}
             <Image
                   src="/profile2.jpg"
                   alt="Hero Image"
